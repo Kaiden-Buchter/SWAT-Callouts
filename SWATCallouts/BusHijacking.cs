@@ -100,7 +100,6 @@ namespace SWATCallouts
                 passenger4.AlwaysKeepTask = true;
                 passenger4.BlockPermanentEvents = true;
 
-
                 passenger1.Task.Cower(-1);
                 passenger2.Task.Cower(-1);
                 passenger3.Task.Cower(-1);
@@ -139,7 +138,11 @@ namespace SWATCallouts
             
             try
             {
-                if (driver.IsAlive && !driver.IsCuffed) { driver.Delete(); }
+                if (driver.IsAlive && !driver.IsCuffed) { driver.Task.WanderAround(); }
+                if (passenger1.IsAlive && !passenger1.IsCuffed) { passenger1.Task.WanderAround(); }
+                if (passenger2.IsAlive && !passenger2.IsCuffed) { passenger2.Task.WanderAround(); }
+                if (passenger3.IsAlive && !passenger3.IsCuffed) { passenger3.Task.WanderAround(); }
+                if (passenger4.IsAlive && !passenger4.IsCuffed) { passenger4.Task.WanderAround(); }
             }
             catch
             { }
