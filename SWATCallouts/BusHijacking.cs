@@ -10,7 +10,7 @@ using FivePD.API.Utils;
 
 namespace SWATCallouts
 {
-    [CalloutProperties(name: "Bus Hijacking", "Husky", "v1.0")]
+    [CalloutProperties("Bus Hijacking", "Husky", "v1.0")]
     public class BusHijacking : Callout
     {
         //Declaring the ped variables
