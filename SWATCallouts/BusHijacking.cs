@@ -113,14 +113,10 @@ namespace SWATCallouts
 
 
                 PedData driverData = await driver.GetData();
-                //does driver have gun?
-                
-                    //Driver does not have gun.
                     driver.Weapons.Give(WeaponHash.Machete, 1, true, true);
                     driver.Task.FleeFrom(Game.PlayerPed, -1);
                     driver.DrivingStyle = DrivingStyle.AvoidTrafficExtremely;
                     
-                     //Items
                     Item knife = new Item();
                     knife.Name = "Bloody Knife";
                     knife.IsIllegal = true;
