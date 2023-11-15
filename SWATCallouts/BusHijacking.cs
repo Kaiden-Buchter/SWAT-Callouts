@@ -125,6 +125,8 @@ namespace SWATCallouts
                 Utilities.ExcludeVehicleFromTrafficStop(bus.NetworkId, true);
                 driver.SetData(driverData);
                 FivePD.API.Pursuit.RegisterPursuit(driver);
+                driver.AttachBlip();
+                driver.AttachedBlip.Color = BlipColor.Blue;
                 bus.AttachBlip();
                 
             }
