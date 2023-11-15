@@ -8,7 +8,6 @@ using static CitizenFX.Core.Native.API;
 using FivePD.API;
 using FivePD.API.Utils;
 
-#pragma warning disable 1998
 namespace SWATCallouts
 {
     [CalloutProperties(name: "Bus Hijacking", "Husky", "v1.0")]
