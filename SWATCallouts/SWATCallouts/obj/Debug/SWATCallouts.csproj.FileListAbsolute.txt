@@ -1,0 +1,11 @@
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\bin\Debug\SWATCallouts.net.dll
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\bin\Debug\SWATCallouts.net.pdb
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\bin\Debug\CitizenFX.Core.Client.dll
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\bin\Debug\FivePD.net.dll
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\bin\Debug\CitizenFX.Core.Client.xml
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\bin\Debug\FivePD.net.xml
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\obj\Debug\SWATCallouts.csproj.AssemblyReference.cache
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\obj\Debug\SWATCallouts.csproj.CoreCompileInputs.cache
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\obj\Debug\SWATCallouts.csproj.CopyComplete
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\obj\Debug\SWATCallouts.net.dll
+C:\Users\kaide\RiderProjects\SWATCallouts\SWATCallouts\obj\Debug\SWATCallouts.net.pdb
