@@ -13,16 +13,13 @@ namespace SWATCallouts
     [CalloutProperties("Bus Hijacking", "Husky", "v1.0")]
     public class BusHijacking : Callout
     {
-        //Declaring the ped variables
         private Ped driver, passenger1, passenger2, passenger3, passenger4;
         private Vehicle bus;
   
         public BusHijacking()
         {
-            //Callout location
             InitInfo(World.GetNextPositionOnStreet(Vector3Extension.Around(Game.PlayerPed.Position, 300f), true));
 
-            //Callout Properties
             ShortName = "Bus Hijacking";
             CalloutDescription = "A bus has been hijacked by an unknown individual, and multiple innocent passengers are on board. Respond Code 3.";
             ResponseCode = 3;
@@ -108,9 +105,6 @@ namespace SWATCallouts
                 passenger2.Task.Cower(-1);
                 passenger3.Task.Cower(-1);
                 passenger4.Task.Cower(-1);
-
-                //fix them cowering under seats
-
 
                 PedData driverData = await driver.GetData();
                     driver.Weapons.Give(WeaponHash.Machete, 1, true, true);
